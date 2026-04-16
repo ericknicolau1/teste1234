@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Início - Meu Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">MeuSite</a>
+      <button class="menu-toggle" aria-label="Menu">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="galeria.html">Galeria</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Bem-vindo ao MeuSite</h1>
+    <p>Um site simples e moderno feito com HTML, CSS e JavaScript.</p>
+  </section>
+
+  <section class="section">
+    <h2>Destaques</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Design Responsivo</h3>
+        <p>Layout que se adapta a qualquer tamanho de tela, do celular ao desktop.</p>
+      </div>
+      <div class="card">
+        <h3>Fácil Navegação</h3>
+        <p>Menu intuitivo com acesso rápido a todas as páginas do site.</p>
+      </div>
+      <div class="card">
+        <h3>Interatividade</h3>
+        <p>Funcionalidades dinâmicas com JavaScript para melhor experiência.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal">
+      <h3>Aviso</h3>
+      <p id="modalText"></p>
+      <button class="btn" onclick="closeModal()">Fechar</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 MeuSite. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
